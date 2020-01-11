@@ -76,3 +76,9 @@ services:
     ports:
       - 2181:2181
       - 9092:9092
+  #kafdrop:
+  #  image: obsidiandynamics/kafdrop:latest
+  #  ports:
+  #    - 9000:9000
+  #  environment:
+  #    KAFKA_BROKERCONNECT: "kafkaserver:9092"
